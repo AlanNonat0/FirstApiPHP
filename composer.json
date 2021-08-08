@@ -1,0 +1,19 @@
+{
+    "name": "alannonat0/firstapiphp",
+    "description": "API Rest learning Project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan Nonato da Silva",
+            "email": "developer.alan.nonato@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Api\\": "api"
+        },
+        "files": ["config.php"]
+    }
+}
